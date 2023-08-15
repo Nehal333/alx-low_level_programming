@@ -1,6 +1,9 @@
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
+
 
 /**
  * main - Print if thre number is positive or zero or negative
@@ -8,10 +11,13 @@
  */
 
 int main(void)
+
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX /2;
+
         if (n > 0)
         {
         printf("%d is positive\n", n);
@@ -25,5 +31,6 @@ int main(void)
         printf("%d is negative\n", n);
         }
         return (0);
+
 }       
 
