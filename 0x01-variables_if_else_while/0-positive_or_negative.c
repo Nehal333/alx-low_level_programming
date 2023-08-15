@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Print if thre number is positive or zero or negative
  * Returtn: Always (succeess)
  */
+
 int main(void)
 {
 	int n;
