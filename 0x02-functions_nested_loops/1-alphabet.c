@@ -2,6 +2,7 @@
 
 /**
  * print_alphabet - print all alphabet in lowercase
+ * Return: Void
  */
 
 void print_alphabet(void)
@@ -15,3 +16,4 @@ void print_alphabet(void)
 	}
        	_putchar('\n');
 }
+
